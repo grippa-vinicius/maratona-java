@@ -65,5 +65,28 @@ public class Aula004Operadores {
                 valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
         System.out.println(isPlaystationCincoCompravel);
 
+
+        /*
+            Atribuição de variáveis
+            Atribuição: =
+            Incremento: +=
+            Decremento: -=
+            *=
+            /=
+            %=
+         */
+
+        double bonus = 1800;
+        bonus += 1000 ;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %=2;
+        System.out.println(bonus);
+
+        int contador = 0;
+        contador += 1;
+        contador++;
+        System.out.println(contador);
     }
 }
