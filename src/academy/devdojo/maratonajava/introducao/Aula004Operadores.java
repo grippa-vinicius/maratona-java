@@ -41,5 +41,23 @@ public class Aula004Operadores {
         System.out.println(isDezMenorQueVinte);
         System.out.println(isDezIgualVinte);
         System.out.println(isDezDiferenteVinte);
+
+        /*
+            Operadores Lógicos
+            E: &&
+            Ou: ||
+            Não: !
+         */
+
+        int idade = 35;
+        float salario = 3500F;
+
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario > 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
+        System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMenorQueTrinta);
+
+
     }
 }
