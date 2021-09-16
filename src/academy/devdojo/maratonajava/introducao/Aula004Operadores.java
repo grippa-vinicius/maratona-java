@@ -17,6 +17,29 @@ public class Aula004Operadores {
 
         System.out.println(resultado);
 
+        // Resto de uma divisão: %
+        int resto = 20 % 2;
+        System.out.println(resto);
 
+        /*
+           Operadores Relacionais
+           Menor: <
+           Menor ou igual: <=
+           Maior: >
+           Maior igual: >=
+           Igualdade: ==
+           Diferente: !=
+
+           SEMPRE RETORNAM VALORES BOOLEANOS
+         */
+
+        boolean isDezMaiorQueVinte = 10 > 20;
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezDiferenteVinte = 10 != 20;
+        System.out.println(isDezMaiorQueVinte);
+        System.out.println(isDezMenorQueVinte);
+        System.out.println(isDezIgualVinte);
+        System.out.println(isDezDiferenteVinte);
     }
 }
